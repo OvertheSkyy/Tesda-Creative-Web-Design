@@ -1,0 +1,28 @@
+/* Import Montserrat font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+h1 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: #007BFF;
+}
+
+h2 {
+    font-family: 'Open Sans';
+    font-weight: normal;
+    color: #28A745;
+}
+
+p {
+    font-family: 'Open Sans';
+    font-weight: normal;
+    color: #343A40;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
