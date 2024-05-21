@@ -10,11 +10,9 @@ document.addEventListener('DOMContentLoaded', function () {
         instance = M.FloatingActionButton.init(elems, {
             direction: 'left',
             // Uncomment to enable click only FAB feature
-            hoverEnabled: false
+            // hoverEnabled: false,
+            // Uncomment to enable FAB to Toolbar feature
+            // toolbarEnabled: true
         });
-
-        instance.open();
-        instance.close();
-        instance.destroy();
     }
 });
