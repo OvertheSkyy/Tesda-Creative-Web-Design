@@ -4,7 +4,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (elems.length > 0) {
         instance = M.FloatingActionButton.init(elems, {
-            direction: 'left'
+            direction: 'left',
+            // Uncomment to enable click only FAB feature
+            hoverEnabled: false
         });
 
         instance.open();
