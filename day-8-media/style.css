@@ -1,3 +1,13 @@
-h1, h3 {
-    color: darkblue;
+h1 {
+    color: #1E6194;
+}
+
+/* body {
+    background-color: #A0A3A3;
+} */
+
+.responsive-video {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
 }
