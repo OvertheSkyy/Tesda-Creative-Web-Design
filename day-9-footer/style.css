@@ -2,12 +2,56 @@ h1 {
     color: #1E6194;
 }
 
-/* body {
-    background-color: #A0A3A3;
-} */
-
+.nav-wrapper {
+    background-color: #79C019;
+}
 .responsive-video {
     width: 100%;
     max-width: 560px;
     height: 315px;
+}
+
+.page-footer {
+    background-color: #79C019; /* Background color */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.page-footer .full-width {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.page-footer .row {
+    margin: 0;
+}
+
+.white-text {
+    margin-bottom: 50px;
+}
+
+.socials {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.socials li {
+    display: inline-block;
+    margin-right: 150px;
+}
+
+.socials li:last-child {
+    margin-right: 0;
+}
+
+.socials li a.btn-floating {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
