@@ -14,33 +14,124 @@
 <body>
     <div class="container">
         <h1>Grid</h1>
-
     </div>
     <div class="divider"></div>
-
     <div class="container">
-
         <p>We are using a standard 12 column fluid responsive grid system. The grid helps you layout your page in an
             ordered, easy fashion.</p>
 
-        <h3>
-            Container
-        </h3>
+        <!-- Container Section -->
+        <h3>Container</h3>
         <p>The container class is not strictly part of the grid but is important in laying out content. It allows you to
             center your page content. The container class is set to ~70% of the window width. It helps you center and
             contain your page content. We use the container to contain our body content.</p>
-
         <p class="flow-text">Demo</p>
         <p>Try the button below to see what the page looks like without containers.</p>
         <div class="btn waves-effect waves-light">TURN OFF CONTAINERS</div>
         <br>
         <br>
         <img src="media/grid.png" alt="grid">
+        <br><br>
+        <p>To add a container just put your content inside a tag with a container class. Here's an example of how your
+            page might be set up.</p>
 
+        <!-- Introduction Section -->
+        <h3>Introduction</h3>
+        <p>Take a look at this section to quickly understand how the grid works!</p>
+        <p class="flow-text">12 Columns</p>
+        <p>Our standard grid has 12 columns. No matter the size of the browser, each of these columns will always have
+            an equal width.</p>
+        <div class="row">
+            <div class="col s1 blue">1</div>
+            <div class="col s1 red">2</div>
+            <div class="col s1 blue">3</div>
+            <div class="col s1 red">4</div>
+            <div class="col s1 blue">5</div>
+            <div class="col s1 red">6</div>
+            <div class="col s1 blue">7</div>
+            <div class="col s1 red">8</div>
+            <div class="col s1 blue">9</div>
+            <div class="col s1 red">10</div>
+            <div class="col s1 blue">11</div>
+            <div class="col s1 red">12</div>
+        </div>
+        <br>
+        <p>To get a feel of how the grid is used in HTML, take a look at the code below which will produce a similar
+            result to the one above. </p>
+        <blockquote>Note: For now, just know that the s1 stands for small-1 which in plain English means "1 column on small screens".</blockquote>
+        <p class="flow-text">Columns live inside Rows</p>
+        <p>Remember when you are creating your layout that all columns must be contained inside a row and that you must add the col class to your inner divs to make them into columns</p>
+        <div class="row">
+            <div class="col s12" style="background-color: rgb(255, 104, 104)">This div is 12-columns wide on all screen sizes</div>
+            <br>
+            <br>
+            <div class="col s6" style="background-color: #2196F3">6-columns (one-half)</div>
+            <div class="col s6" style="background-color: rgb(255, 104, 104)">6-columns (one-half)</div>
+        </div>
 
+        <!-- Offsets Section-->
+        <h3>Offsets</h3>
+        <div class="row">
+            <div class="col s12" style="background-color: rgb(255, 104, 104)"><span class="flow-text">This div is 12-columns wide on all screen sizes</span></div>
+            <br>
+            <br>
+            <div class="col s6 offset-s6" style="background-color: #2196F3"><span class="flow-text">6-columns (offset-by-6)</span></div>
+          </div>
+        <br>
+        <br>
+        <h3>Push and Pull</h3>
+        <p>You can easily change the order of your columns with push and pull. Simply add push-s2 or pull-s2 to the class where s signifies the screen class-prefix (s = small, m = medium, l = large) and the number after is the number of columns you want to push or pull by.</p>
+        <div class="row">
+            <div class="col s7 push-s5"><span class="flow-text">This div is 7-columns wide on pushed to the right by 5-columns.</span></div>
+            <div class="col s5 pull-s7"><span class="flow-text">5-columns wide pulled to the left by 7-columns.</span></div>
+        </div>
+        <br>
+        <br>
+
+        <!-- Creating Layouts Section-->
+        <h1>Creating Layouts</h1>
+        <span class="flow-text">Example Promotion Table</span>
+        <p>If we want 3 divs that are equal size, we define the divs with a width of 4-columns, as 4+4+4 nicely adds up to 12. Inside those divs, we can put our content. Take our front page content for example. We've modified it slightly for the sake of this example.</p>
+        <div class="row">
+            <div class="col s4 center">
+                <i class="material-icons large red-text text-lighten-2">flash_on</i>
+                <h5 style="font-weight: 500">Speeds up development</h5>
+                <p>We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
+            </div>
+            <div class="col s4 center">
+                <i class="material-icons large red-text text-lighten-2">people</i>
+                <h5 style="font-weight: 500">User Experience Focused</h5>
+                <p>By utilizing elements and principles of Material Design, we were able to create a framework that focuses on User Experience.</p>
+            </div>
+            <div class="col s4 center">
+                <i class="material-icons large red-text text-lighten-2">settings</i>
+                <h5 style="font-weight: 500">Easy to work with</h5>
+                <p>We have provided detailed documentation as well as specific code examples to help new users get started.</p>
+            </div>
+          </div>
+          
+        <!-- Creating Responsive Layouts Section-->
+        <h1>Creating Responsive Layouts</h1>
+        <span class="flow-text">Example Promotion Table</span>
+        <p>If we want 3 divs that are equal size, we define the divs with a width of 4-columns, as 4+4+4 nicely adds up to 12. Inside those divs, we can put our content. Take our front page content for example. We've modified it slightly for the sake of this example.</p>
+        <div class="row">
+            <div class="col s12 m6 l4 center">
+                <i class="material-icons large red-text text-lighten-2">flash_on</i>
+                <h5 style="font-weight: 500">Speeds up development</h5>
+                <p>We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.</p>
+            </div>
+            <div class="col s12 m6 l4 center">
+                <i class="material-icons large red-text text-lighten-2">people</i>
+                <h5 style="font-weight: 500">User Experience Focused</h5>
+                <p>By utilizing elements and principles of Material Design, we were able to create a framework that focuses on User Experience.</p>
+            </div>
+            <div class="col s12 m6 l4 center">
+                <i class="material-icons large red-text text-lighten-2">settings</i>
+                <h5 style="font-weight: 500">Easy to work with</h5>
+                <p>We have provided detailed documentation as well as specific code examples to help new users get started.</p>
+            </div>
+          </div>
     </div>
-
-
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
