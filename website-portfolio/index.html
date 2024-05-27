@@ -30,7 +30,7 @@
   <body>
     <!-- Navigation Bar -->
     <div class="navbar-fixed">
-      <nav class="black">
+      <nav style="background-color: #393346">
         <div class="container">
           <div class="nav-wrapper">
             <a href="#" class="brand-logo">My Portfolio</a>
@@ -45,41 +45,49 @@
       </nav>
     </div>
     <div class="home-section" id="home">
-      <div class="content">
+      <div class="col content image-content">
+        <img src="img/profile.png" alt="" class="circle responsive-img left" />
+      </div>
+      <div class="col col s12 m6 l4 content text-content">
         <h1 class="center">
           <a
             href=""
             class="typewrite"
             data-period="2000"
-            data-type='["Hi, I am Caskie.", "Web Developer.", "AI Enthusiast.", ""]'
+            data-type='["Hi, I&apos;m Caskie.", "Web Developer.", "AI Enthusiast.", ""]'
           >
             <span class="wrap"></span>
           </a>
         </h1>
       </div>
     </div>
-
     <!-- FAB -->
     <div class="fixed-action-btn">
       <a class="btn-floating btn-large blue-grey darken-4">
         <i class="fa fa-globe"></i>
-      </a>
+      </a>  
       <ul>
         <li>
-          <a class="btn-floating blue"><i class="fab fa-twitter"></i></a>
+          <a href="https://github.com/OvertheSkyy" class="btn-floating black">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>        
+        <li>
+          <a
+            href="https://www.linkedin.com/in/gaeus-caskie-fabro-319981234/"
+            class="btn-floating blue darken-2"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
         </li>
         <li>
-          <a class="btn-floating blue lighten-1"
-            ><i class="fab fa-facebook"></i
-          ></a>
+          <a
+            href="https://www.facebook.com/caskieee/"
+            class="btn-floating blue darken-3"
+          >
+            <i class="fab fa-facebook"></i>
+          </a>
         </li>
-        <li>
-          <a class="btn-floating pink"><i class="fab fa-instagram"></i></a>
-        </li>
-        <li>
-          <a class="btn-floating black"><i class="fab fa-tiktok"></i></a>
-        </li>
-      </ul>
     </div>
     <!-- JQUERY -->
     <script
@@ -91,7 +99,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="script.js"></script>
   </body>
-  <footer class="section page-footer black">
-    <div class="container center-align">Gaeus Caskie 2024</div>
+  <footer class="section page-footer" style="background-color: #393346">
+    <div class="container center-align">© 2024 Gaeus Caskie</div>
   </footer>
 </html>
