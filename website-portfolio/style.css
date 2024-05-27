@@ -1,0 +1,12 @@
+#home {
+  height: 100vh;
+  background-color: #312d2a;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: -1;
+}
+#mainText {
+  margin-top: 30vh;
+}

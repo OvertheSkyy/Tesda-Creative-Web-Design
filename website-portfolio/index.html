@@ -3,29 +3,85 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/favicon.png" />
+    <title>My Portfolio</title>
+    <!-- Compiled and minified CSS -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
-    <link rel="stylesheet" href="style.css" />
+
+    <!-- Material Icons -->
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+
+    <!-- Font Awesome -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     />
-    <title>My Portfolio</title>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Gaeus Caskie Fabro</h1>
+    <!-- Navigation Bar -->
+    <div class="navbar-fixed">
+      <nav class="black">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo">My Portfolio</a>
+            <ul class="right hide-on-med-and-down" id="navList">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about-me">About Me</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="section" id="home">
+      <h5 id="mainText" class="center" style="color: white">Hi I'm,</h5>
+      <h1 style="color: white" class="center"><b>CASKIE</b></h1>
+      <h6 id="mainText" class="center" style="color: white">Web Developer</h6>
+    </div>
+    <!-- FAB -->
+    <div class="fixed-action-btn">
+      <a class="btn-floating btn-large blue-grey darken-4">
+        <i class="fa fa-globe"></i>
+      </a>
+      <ul>
+        <li>
+          <a class="btn-floating blue"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li>
+          <a class="btn-floating blue lighten-1"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a class="btn-floating pink"><i class="fab fa-instagram"></i></a>
+        </li>
+        <li>
+          <a class="btn-floating black"><i class="fab fa-tiktok"></i></a>
+        </li>
+      </ul>
+    </div>
+    <!-- JQUERY -->
     <script
       src="https://code.jquery.com/jquery-3.7.1.min.js"
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
       crossorigin="anonymous"
     ></script>
+    <!-- Compiled and minified JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="script.js"></script>
   </body>
+  <footer class="section page-footer black">
+    <div class="container center-align">Gaeus Caskie 2024</div>
+  </footer>
 </html>
