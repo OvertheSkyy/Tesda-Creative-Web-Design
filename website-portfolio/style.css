@@ -7,6 +7,27 @@
   background-attachment: fixed;
   z-index: -1;
 }
-#mainText {
-  margin-top: 30vh;
+
+.home-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+}
+
+.content {
+  text-align: center;
+}
+
+.center {
+  display: inline-block;
+}
+
+.typewrite {
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden;
+  white-space: nowrap;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
 }
