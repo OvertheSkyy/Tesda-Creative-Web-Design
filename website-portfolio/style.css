@@ -1,6 +1,6 @@
 #home {
   height: 100vh;
-  background-color: #222831;
+  background-color: #393346;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -36,10 +36,15 @@
 }
 
 .typewrite {
-  color: #fff;
+  color: #eeeeee;
   font-family: monospace;
   overflow: hidden;
   white-space: nowrap;
   letter-spacing: 0.15em;
   animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+#skills {
+  background-color: #eeeeee;
+  height: 70vh;
 }

@@ -1,105 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="icon" href="img/favicon.png" />
-    <title>My Portfolio</title>
-    <!-- Compiled and minified CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Material Icons -->
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
+  <link rel="icon" href="img/favicon.png" />
+  <title>My Portfolio</title>
 
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-    />
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
 
-    <!-- Style CSS -->
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- Navigation Bar -->
-    <div class="navbar-fixed">
-      <nav style="background-color: #393346">
-        <div class="container">
-          <div class="nav-wrapper">
-            <a href="#" class="brand-logo">My Portfolio</a>
-            <ul class="right hide-on-med-and-down" id="navList">
-              <li><a href="#home">Home</a></li>
-              <li><a href="#about-me">About Me</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <div class="navbar-fixed">
+    <nav style="background-color: #222831">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">My Portfolio</a>
+          <ul class="right hide-on-med-and-down" id="navList">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </div>
-      </nav>
-    </div>
-    <div class="home-section" id="home">
-      <div class="col content image-content">
-        <img src="img/profile.png" alt="" class="circle responsive-img left" />
       </div>
-      <div class="col col s12 m6 l4 content text-content">
-        <h1 class="center">
-          <a
-            href=""
-            class="typewrite"
-            data-period="2000"
-            data-type='["Hi, I&apos;m Caskie.", "Web Developer.", "AI Enthusiast.", ""]'
-          >
-            <span class="wrap"></span>
-          </a>
-        </h1>
+    </nav>
+  </div>
+
+  <!-- Feature Section -->
+  <div class="home-section" id="home">
+    <div class="col content image-content">
+      <img src="img/profile.png" alt="" class="circle responsive-img left" />
+    </div>
+    <div class="col col s12 m6 l4 content text-content">
+      <h1 class="center">
+        <a href="" class="typewrite" data-period="2000"
+          data-type='["Hi, I&apos;m Caskie.", "Web Developer.", "Web Designer."]'>
+          <span class="wrap"></span>
+        </a>
+      </h1>
+    </div>
+  </div>
+
+  <!-- FAB -->
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large blue-grey darken-4">
+      <i class="fa fa-globe"></i>
+    </a>
+    <ul>
+      <li>
+        <a href="https://github.com/OvertheSkyy" class="btn-floating black">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/gaeus-caskie-fabro-319981234/" class="btn-floating blue darken-2">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/caskieee/" class="btn-floating blue darken-3">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  </div>
+
+  <!-- Skills Section -->
+  <div class="section" id="skills">
+    <div class="container">
+      <div class="row">
+        <h1 class="center black-text">My Skills</h1>
+      </div>
+      <div class="row center">
+        <div class="col s12 m12 l3">
+          <img class="responsive-img" src="img/icons8-html-5-240.png">
+        </div>
+        <div class="col s12 m12 l3">
+          <img class="responsive-img" src="img/icons8-materialize-240.png" />
+        </div>
+        <div class="col s12 m12 l3">
+          <img class="responsive-img" src="img/icons8-javascript-240.png" />
+        </div>
+        <div class="col s12 m12 l3">
+          <img class="responsive-img" src="img/icons8-canva-240.png" />
+        </div>
       </div>
     </div>
-    <!-- FAB -->
-    <div class="fixed-action-btn">
-      <a class="btn-floating btn-large blue-grey darken-4">
-        <i class="fa fa-globe"></i>
-      </a>  
-      <ul>
-        <li>
-          <a href="https://github.com/OvertheSkyy" class="btn-floating black">
-            <i class="fab fa-github"></i>
-          </a>
-        </li>        
-        <li>
-          <a
-            href="https://www.linkedin.com/in/gaeus-caskie-fabro-319981234/"
-            class="btn-floating blue darken-2"
-          >
-            <i class="fab fa-linkedin"></i>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.facebook.com/caskieee/"
-            class="btn-floating blue darken-3"
-          >
-            <i class="fab fa-facebook"></i>
-          </a>
-        </li>
-    </div>
-    <!-- JQUERY -->
-    <script
-      src="https://code.jquery.com/jquery-3.7.1.min.js"
-      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-      crossorigin="anonymous"
-    ></script>
-    <!-- Compiled and minified JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="script.js"></script>
-  </body>
-  <footer class="section page-footer" style="background-color: #393346">
-    <div class="container center-align">© 2024 Gaeus Caskie</div>
-  </footer>
+  </div>
+
+  <!-- JQUERY -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <!-- Compiled and minified JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="script.js"></script>
+</body>
+<footer class="section page-footer" style="background-color: #222831">
+  <div class="container center-align">© 2024 Gaeus Caskie</div>
+</footer>
+
 </html>
