@@ -48,3 +48,21 @@
   background-color: #eeeeee;
   height: 70vh;
 }
+
+#projects {
+  background-color: #393346;
+  height: 80vh;
+}
+
+.card-content,
+.card-reveal {
+  height: 150px;
+}
+
+.card {
+  height: auto;
+}
+
+.card-image {
+  height: 200px;
+}
