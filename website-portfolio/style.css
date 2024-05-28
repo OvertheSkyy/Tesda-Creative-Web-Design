@@ -66,3 +66,7 @@
 .card-image {
   height: 200px;
 }
+
+.custom-image-height {
+  height: 200px; /* Adjust the height as needed */
+}
