@@ -13,6 +13,11 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
+// Sidenav view
+$(document).ready(function () {
+    $('.sidenav').sidenav();
+})
+
 var TxtType = function (el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
