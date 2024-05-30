@@ -1,0 +1,38 @@
+can I have a moment or two to think about it
+
+
+web pages:
+landing page
+home page
+niche --> suitable for you
+	
+parts:
+navigation
+feature image --> call to action bttn highlighted
+mobile responsive
+slider
+footer
+copyright
+
+techniques:
+add fade to bg of text to make it appear more
+
+primary logo, brand mark, color palette (60, 30, 10 rule)
+
+site map
+
+homepage products page
+
+
+notes: 
+avoid more than 10 secs loading 
+their time is limited
+1 page form
+schedule zoom
+
+ask for specific preferences
+not the best fit if di pasok sa contraints si client (money, time, features)
+
+communication
+punctuality
+teamwork
